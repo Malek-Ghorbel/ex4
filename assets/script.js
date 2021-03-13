@@ -1,0 +1,2 @@
+var parent = document.querySelector(".container") ;
+parent.addEventListener('click',(e) => console.log(e.target.setAttribute("style","background-color:#"+  ((1<<24)*Math.random() | 0).toString(16)))) ;
